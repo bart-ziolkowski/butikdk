@@ -12,7 +12,7 @@ function App() {
       <Toaster />
       <div className="App">
         <Navbar />
-        <main className="py-16 bg-slate-50 min-h-[calc(100vh)]">
+        <main className="bg-slate-50 min-h-[calc(100vh)]">
           <Outlet />
         </main>
         <Footer />
