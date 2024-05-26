@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useRef } from "react";
 
-const About = () => {
+import MainContent from "../components/about-page/MainContent";
+import { useIsVisible } from "../redux/hooks";
+
+const About: React.FC = () => {
+  const main = useRef<HTMLDivElement>(null);
+  const isVisibleMain = useIsVisible(main);
+
   return (
-    <div>About</div>
-  )
-}
+    <MainContent
+      ref={main}
+      className={`transition-opacity ease-in duration-700 delay-300 ${
+        isVisibleMain ? "opacity-100" : "opacity-0"
+      }`}
+    />
+  );
+};
 
-export default About
+export default About;

@@ -30,8 +30,7 @@ const Register = () => {
             </h1>
 
             <p className="mt-4 leading-relaxed text-gray-500">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              nam dolorum aliquam, quibusdam aperiam voluptatum.
+              Join the Sustainable and Responsible Fashion
             </p>
 
             <form action="#" className="mt-8 grid grid-cols-6 gap-6">
@@ -138,7 +137,8 @@ const Register = () => {
                   By creating an account, you agree to our&nbsp;
                   <a href="#" className="text-gray-700 underline">
                     terms and conditions
-                  </a>&nbsp;and&nbsp;
+                  </a>
+                  &nbsp;and&nbsp;
                   <a href="#" className="text-gray-700 underline">
                     privacy policy
                   </a>

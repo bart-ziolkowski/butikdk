@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
+import logoImage from "../assets/images/logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -9,18 +10,10 @@ const Navbar = () => {
     <header className={`flex w-full items-center bg-white dark:bg-dark`}>
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
-          <div className="w-60 max-w-full px-4">
+          <div className="w-60 max-w-full px-4 ms-4">
             <Link to={"/"} className="block w-full py-5">
-              <img
-                src="https://picsum.photos/100"
-                alt="logo"
-                className="dark:hidden"
-              />
-              <img
-                src="https://picsum.photos/100"
-                alt="logo"
-                className="hidden dark:block"
-              />
+              <img src={logoImage} alt="logo" className="dark:hidden" />
+              <img src={logoImage} alt="logo" className="hidden dark:block" />
             </Link>
           </div>
           <div className="flex w-full items-center justify-between px-4">
@@ -30,11 +23,11 @@ const Navbar = () => {
                 id="navbarToggler"
                 className={` ${
                   open && "navbarTogglerActive"
-                } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+                } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden bg-blue`}
               >
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-beige dark:bg-white"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-beige dark:bg-white"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-beige dark:bg-white"></span>
               </button>
               <nav
                 id="navbarCollapse"
@@ -60,7 +53,7 @@ const Navbar = () => {
 
               <Link
                 to={"/register"}
-                className="rounded-md bg-orange px-7 py-3 text-base font-medium text-beige hover:bg-primary/90"
+                className="rounded-md bg-blue px-7 py-3 text-base font-medium text-beige hover:bg-primary/90 transition hover:bg-green"
               >
                 Sign Up
               </Link>

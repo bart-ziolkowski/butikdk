@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
 
       <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 text-center">
           <div>
             <p>
               <span className="text-xs uppercase tracking-wide text-gray-500">
@@ -34,7 +34,7 @@ const Footer = () => {
               <li>Monday to Friday: 10am - 5pm</li>
               <li>Weekend: 10am - 3pm</li>
             </ul>
-
+            <p className="my-4">Brumleby 5, 2100 Copenhagen</p>
             <ul className="mt-8 flex gap-6 justify-center">
               <li>
                 <Link
@@ -284,7 +284,7 @@ const Footer = () => {
             </ul>
 
             <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-              &copy; 2022. ButikDK. All rights reserved.
+              &copy; 2024. ButikDK. All rights reserved.
             </p>
           </div>
         </div>
