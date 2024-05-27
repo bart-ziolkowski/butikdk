@@ -31,12 +31,12 @@ const Hero = forwardRef<HTMLDivElement, HeroProps>(({ className }, ref) => {
           <div>
             <div className="flex flex-col w-full mt-4">
               <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-                Buy Your Next Sneakers Here
+                Buy Your Next Sneakers With Us
               </h3>
               <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
-                You can use this space to highlight your first benefit or a
-                feature of your product. It can also contain an image or
-                Illustration like in the example along with some bullet points.
+                Welcome to our store, where style meets comfort and innovation.
+                Browse our latest arrivals and experience the best in sneaker
+                fashion! Here's why you'll love shopping with us:
               </p>
             </div>
             <div className="w-full mt-5">
@@ -59,10 +59,12 @@ const Hero = forwardRef<HTMLDivElement, HeroProps>(({ className }, ref) => {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    Understand your customers
+                    Tailored to Your Taste
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Then explain the first point breifly in one or two lines.
+                    Stay ahead of trends and find the sneakers that match your
+                    unique style. Our wide selection guarantees something for
+                    everyone.
                   </p>
                 </div>
               </div>
@@ -85,10 +87,11 @@ const Hero = forwardRef<HTMLDivElement, HeroProps>(({ className }, ref) => {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    Improve acquisition
+                    Attractive Prices and Early Access
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Here you can add the next benefit point.
+                    Enjoy unbeatable prices and early access to new releases.
+                    Perfect for staying ahead in the sneaker game.
                   </p>
                 </div>
               </div>
@@ -111,10 +114,12 @@ const Hero = forwardRef<HTMLDivElement, HeroProps>(({ className }, ref) => {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    Drive customer retention
+                    Customer Satisfaction Guaranteed
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    This will be your last bullet point in this section.
+                    Our focus on quality and excellent service ensures you’ll be
+                    a happy and loyal customer. Become part of our satisfied
+                    sneaker community today.
                   </p>
                 </div>
               </div>

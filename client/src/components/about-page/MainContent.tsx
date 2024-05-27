@@ -30,20 +30,29 @@ const MainContent = forwardRef<HTMLDivElement, MainContentProps>(
             <div className="lg:py-16">
               <article className="space-y-4 text-gray-600">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  qui hic atque tenetur quis eius quos ea neque sunt,
-                  accusantium soluta minus veniam tempora deserunt? Molestiae
-                  eius quidem quam repellat.
+                  Welcome to our sneaker store, nestled in the heart of
+                  Copenhagen, where fashion meets function. We are dedicated to
+                  offering an unparalleled selection of sneakers, ensuring that
+                  every customer finds their perfect pair. Our store features
+                  top brands such as Adidas, Nike, Veja, and Converse, each
+                  known for their unique blend of style and comfort. Our
+                  carefully curated collection caters to diverse tastes, from
+                  timeless classics to the latest trends, making it easy for you
+                  to find the perfect addition to your wardrobe. Experience the
+                  best in sneaker fashion with us.
                 </p>
 
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolorum explicabo quidem voluptatum voluptas illo accusantium
-                  ipsam quis, vel mollitia? Vel provident culpa dignissimos
-                  possimus, perferendis consectetur odit accusantium dolorem
-                  amet voluptates aliquid, ducimus tempore incidunt quas.
-                  Veritatis molestias tempora distinctio voluptates sint! Itaque
-                  quasi corrupti, sequi quo odit illum impedit!
+                  At our Copenhagen store, customer satisfaction is our top
+                  priority. Our friendly and knowledgeable staff are always on
+                  hand to provide personalized service, helping you find the
+                  right fit and style. We believe that shopping should be an
+                  enjoyable and stress-free experience, and our team is
+                  committed to making that a reality for you. Whether you need
+                  advice on the latest trends or assistance in finding the
+                  perfect pair for any occasion, we are here to help. Visit us
+                  and let us enhance your sneaker shopping experience with our
+                  exceptional service.
                 </p>
               </article>
             </div>
@@ -52,20 +61,29 @@ const MainContent = forwardRef<HTMLDivElement, MainContentProps>(
             <div className="lg:py-16">
               <article className="space-y-4 text-gray-600">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  qui hic atque tenetur quis eius quos ea neque sunt,
-                  accusantium soluta minus veniam tempora deserunt? Molestiae
-                  eius quidem quam repellat.
+                  Our store is not just about offering high-quality sneakers; we
+                  are also committed to sustainability and ethical practices. We
+                  proudly feature brands like Veja, known for their eco-friendly
+                  production methods and fair-trade practices. By choosing to
+                  shop with us, you are supporting a greener and more ethical
+                  fashion industry. Our commitment to sustainability means you
+                  can feel good about your purchase, knowing it has a positive
+                  impact on the environment and the people who produce these
+                  products. Join us in making a difference through conscious
+                  fashion choices.
                 </p>
 
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolorum explicabo quidem voluptatum voluptas illo accusantium
-                  ipsam quis, vel mollitia? Vel provident culpa dignissimos
-                  possimus, perferendis consectetur odit accusantium dolorem
-                  amet voluptates aliquid, ducimus tempore incidunt quas.
-                  Veritatis molestias tempora distinctio voluptates sint! Itaque
-                  quasi corrupti, sequi quo odit illum impedit!
+                  Located in the vibrant city of Copenhagen, our store is easily
+                  accessible and designed to provide a welcoming and inspiring
+                  shopping environment. The city’s rich culture and modern vibe
+                  are reflected in our store’s aesthetic, making it a
+                  destination for both locals and tourists. Our prime location
+                  allows you to explore the best of sneaker fashion while
+                  enjoying the unique charm of Copenhagen. Whether you are a
+                  sneaker enthusiast or simply looking to update your style, our
+                  store offers a unique shopping experience that combines
+                  convenience with cutting-edge fashion.
                 </p>
               </article>
             </div>
