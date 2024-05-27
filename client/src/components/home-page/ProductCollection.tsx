@@ -20,9 +20,9 @@ const ProductCollection = forwardRef<HTMLDivElement, ProductCollectionProps>(
             </h2>
 
             <p className="mt-4 max-w-md text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-              praesentium cumque iure dicta incidunt est ipsam, officia dolor
-              fugit natus?
+              Explore our most popular picks that customers love. These
+              top-rated sneakers combine style, comfort, and durability, making
+              them must-haves for any sneaker enthusiast.
             </p>
           </header>
 
@@ -45,7 +45,7 @@ const ProductCollection = forwardRef<HTMLDivElement, ProductCollectionProps>(
 
                     <span className="tracking-wider text-gray-900">
                       {" "}
-                      £24.00 GBP{" "}
+                      £99.00 GBP{" "}
                     </span>
                   </p>
                 </div>
@@ -70,7 +70,7 @@ const ProductCollection = forwardRef<HTMLDivElement, ProductCollectionProps>(
 
                     <span className="tracking-wider text-gray-900">
                       {" "}
-                      £24.00 GBP{" "}
+                      £120.00 GBP{" "}
                     </span>
                   </p>
                 </div>
@@ -95,7 +95,7 @@ const ProductCollection = forwardRef<HTMLDivElement, ProductCollectionProps>(
 
                     <span className="tracking-wider text-gray-900">
                       {" "}
-                      £24.00 GBP{" "}
+                      £200.00 GBP{" "}
                     </span>
                   </p>
                 </div>
@@ -120,7 +120,7 @@ const ProductCollection = forwardRef<HTMLDivElement, ProductCollectionProps>(
 
                     <span className="tracking-wider text-gray-900">
                       {" "}
-                      £24.00 GBP{" "}
+                      £130.00 GBP{" "}
                     </span>
                   </p>
                 </div>
